@@ -1,2 +1,3 @@
-# github-for-developers-sept-2015
-practice repo for the Sept 29-30 GitHub for Developers class
+Welcome to [GitHub for Developers](https://training.github.com/classes/developers/)!
+
+**If you joined late...** please make sure to add a comment to [this Issue](https://github.com/githubteacher/github-for-developers-sept-2015/issues/1).
