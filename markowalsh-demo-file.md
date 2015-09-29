@@ -1,5 +1,5 @@
 # Demo File Title
 
-## With some radio buttons
+## With some checkboxes
 - [ ] Yes
 - [ ] No
