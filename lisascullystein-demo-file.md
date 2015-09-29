@@ -2,4 +2,4 @@
 
 **Adding Bold text to the file**
 
-_More bold information_
+_More information_
