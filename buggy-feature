@@ -4,3 +4,11 @@ function buggy(number) {
    return number / 0
 
 }
+
+function one_million() {
+   return one_million_dollars
+}
+
+function sharks_with_lasers() {
+   return sharks_with_frickin_lasers
+}
