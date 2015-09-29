@@ -1,3 +1,3 @@
-public class Pair{
-  int first,int second;
+public class Pair<T>{
+  T first,T second;
 }
