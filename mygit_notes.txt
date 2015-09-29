@@ -1,0 +1,49 @@
+  806  2015-09-29 11:34:26 export NO_OPENSSL=1
+  814  2015-09-29 11:34:26 export NO_CURL=1
+ 
+
+  989  2015-09-29 11:04:23 cd /usr/src/linux
+  990  2015-09-29 11:04:23 find . -name curl.h 
+  991  2015-09-29 11:04:23 cd ../..
+  992  2015-09-29 11:04:23 cd ..
+  993  2015-09-29 11:04:23 find . -name curl.h 
+  994  2015-09-29 11:04:23 cls
+  999  2015-09-29 11:04:26 . setup
+ 1000  2015-09-29 11:04:32 which git
+ 1001  2015-09-29 11:04:37 git --version
+ 1002  2015-09-29 11:09:27 git remote set-url origin https://github.com/githubteacher/github-for-developers-sept-2015.git
+ 1003  2015-09-29 11:09:32 git config
+ 1004  2015-09-29 11:09:42 git remote set-url master https://github.com/githubteacher/github-for-developers-sept-2015.git
+ 1005  2015-09-29 11:10:05 get --version
+ 1006  2015-09-29 11:10:09 git --version
+ 1007  2015-09-29 11:10:37 git config --global user.name "ap120266"
+ 1008  2015-09-29 11:10:52 git config --global user.email "ap120266@teradata.com"
+ 1009  2015-09-29 11:11:03 git config --global --list
+ 1010  2015-09-29 11:13:40 git config --global core.autocrlf input
+ 1011  2015-09-29 11:13:43 git config --global --list
+ 1012  2015-09-29 11:14:47 git remote set-url origin git@github.com:githubteacher/github-for-developers-sept-2015.git
+ 1013  2015-09-29 11:16:30 git clone https://github.com/githubteacher/github-for-developers-sept-2015.git
+ 1014  2015-09-29 11:17:19 git clone git@github.com:githubteacher/github-for-developers-sept-2015.git
+ 1015  2015-09-29 11:17:57 l ~/.ssh 
+ 1016  2015-09-29 11:20:07 clip < ~/.ssh/id_rsa.pub
+ 1017  2015-09-29 11:20:13 cat ~/.ssh/id_rsa.pub
+ 1018  2015-09-29 11:23:06 git clone git@github.com:githubteacher/github-for-developers-sept-2015.git
+ 1019  2015-09-29 11:26:31 git branch
+ 1020  2015-09-29 11:26:47 cd /
+ 1021  2015-09-29 11:26:47 l
+ 1022  2015-09-29 11:26:53 cd home
+ 1023  2015-09-29 11:26:53 l
+ 1024  2015-09-29 11:27:47 git checkout mygit-demo-branch
+ 1025  2015-09-29 11:28:05 git clone git@github.com:githubteacher/github-for-developers-sept-2015.git
+ 1026  2015-09-29 11:28:43 pwd
+ 1027  2015-09-29 11:28:44 ls
+ 1028  2015-09-29 11:28:46 cd github-for-developers-sept-2015/
+ 1029  2015-09-29 11:28:47 l
+ 1030  2015-09-29 11:28:59 git checkout mygit-demo-branch
+ 1031  2015-09-29 11:29:18 git checkout demo-local-branch 
+ 1032  2015-09-29 11:29:27 git status
+ 1033  2015-09-29 11:30:23 git checkout -b mygit-demo-branch 
+ 1034  2015-09-29 11:30:34 git status
+ 1035  2015-09-29 11:31:05 touch mygit_notes.txt
+ 1036  2015-09-29 11:31:28 history 
+ 1037  2015-09-29 11:31:41 history  | tail -100 > mygit_notes.txt
