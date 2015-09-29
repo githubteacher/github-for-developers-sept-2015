@@ -1,0 +1,3 @@
+************************Conflict Begin**********************
+I like to eat apples and bananas
+************************Conflict End************************
