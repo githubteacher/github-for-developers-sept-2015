@@ -2,3 +2,5 @@
 
 **bold**
 *italic*
+
+:fu:
