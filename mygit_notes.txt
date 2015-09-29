@@ -1,7 +1,20 @@
   806  2015-09-29 11:34:26 export NO_OPENSSL=1
   814  2015-09-29 11:34:26 export NO_CURL=1
- 
-
+  815  2015-09-29 11:34:26 make clean
+  816  2015-09-29 11:34:26 make 
+  817  2015-09-29 11:34:26 make install
+  818  2015-09-29 11:34:26 git info
+  819  2015-09-29 11:34:26 git --help
+  820  2015-09-29 11:34:26 which git
+  821  2015-09-29 11:34:26 git show
+  822  2015-09-29 11:34:26 git help init
+  823  2015-09-29 11:34:26 git log
+  824  2015-09-29 11:34:26 git config --global user.name "ap120266"
+  825  2015-09-29 11:34:26 git config --global user.email "ap120266@users.noreply.github.com"
+  826  2015-09-29 11:34:26 git config --global user.email 
+  827  2015-09-29 11:34:26 git config --global user.name
+  828  2015-09-29 11:34:26 git clone 
+  829  2015-09-29 11:34:26 ssh -T -p 443 git@ssh.github.com 
   989  2015-09-29 11:04:23 cd /usr/src/linux
   990  2015-09-29 11:04:23 find . -name curl.h 
   991  2015-09-29 11:04:23 cd ../..
