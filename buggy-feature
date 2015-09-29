@@ -1,0 +1,6 @@
+#  My awesome new feature
+
+function buggy(number) {
+   return number / 0
+
+}
