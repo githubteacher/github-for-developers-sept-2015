@@ -1,0 +1,677 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Print &amp; Promo</title>
+	<link rel='stylesheet' href='./css/style.css' />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class='tableContainer'>
+	<table border='1'>
+
+		<!-- Header Row -->
+		<tr class='headerRow'>
+			<!-- Add the check boxes here -->
+			<th><button><i class="fa fa-square-o"></i></button><button><i class="fa fa-th-large"></i></button></th>
+			<th>Order #</th>
+			<th>Status</th>
+			<th>Date Created</th>
+			<th>Regional Office</th>
+			<th>Agency</th>
+			<th>Year</th>
+			<th>Form Name</th>
+			<th>Policy Count <br /> Page Count</th>
+			<th>Page Cost</th>
+			<th>
+				Est. Shipping<br />
+				Est. Cost<br />
+				Est. Ship Date
+			</th>
+			<th>
+				Approve/Deny
+			</th>
+			<th>
+				Actual Shipping<br />
+				Actual Cost<br />
+				Actual Ship Date
+			</th>
+		</tr>
+		<!-- /Header Row -->
+
+		<!-- Sample Rows -->
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr class='selected'>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+		<tr>
+			<th><button><i class="fa fa-square-o"></i></button><button class='toggle'><i class="fa fa-th-large"></i></button></th>
+			<td>50469</td>
+			<td></td>
+			<td>4/16/2016</td>
+			<td>Albany</td>
+			<td>AllStout</td>
+			<td>2016</td>
+			<td>G901</td>
+			<td>216<br />432</td>
+			<td>$ 0.16</td>
+			<td>$ 0.50<br />$ 1.00<br />4/18/2016</td>
+			<td>
+				<button class='button button--approve'><i class="fa fa-thumbs-o-up"></i></button><button class='button button--deny'><i class="fa fa-thumbs-o-down"></i></button>
+			</td>
+			<td>$ 1.00<br />$ 1.50<br />4/17/2016</td>
+		</tr>
+
+	</table>
+
+	<!-- Information View -->
+
+	<div class='detailContainer hidden'>
+		<div>
+			<i class="fa fa-times closeIcon" id='closeIcon'></i>
+			<div class='tab tab--selected' id='orderInfoTab'>Order Information</div>
+			<div class='tab' id='formOptionsTab'>Form Options</div>
+			<div class='tab' id='printOptionsTab'>Print Options</div>
+			<div class='tab' id='shippingTab'>Shipping</div>
+		</div>
+
+		<!-- The buckets for display -->
+
+		<!-- Order Bucket -->
+
+		<div class='bucket bucket--selected' id='orderInfoBucket'>
+			<span class='container'>
+				<div class='entry'>
+					<label>Agency Order #</label><br />
+					<span class='text'>828</span>
+				</div>
+				<div class='entry'>
+					<label>Order #</label><br />
+					<span class='text'>828</span>
+				</div>
+				<div class='entry'>
+					<label>Year</label><br />
+					<span class='text'>2016</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>PC</label><br />
+					<span class='text'>Peoria, IL</span>
+				</div>
+				<div class='entry'>
+					<label>Agency Code</label><br />
+					<span class='text'>85123</span>
+				</div>
+				<div class='entry'>
+					<label>Contact Email Address</label><br />
+					<span class='text'><a href="mailto:randomguy@thisnotreal.com">cropwoman@crop.net</a></span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Agency Name</label><br />
+					<span class='text'>AltState</span>
+				</div>
+			</span>
+		</div>
+
+		<!-- /Order Bucket -->
+
+		<!-- Form Options Bucket -->
+
+		<div class='bucket' id='formOptionsBucket'>
+			<span class='container'>
+				<div class='entry'>
+					<label>Field Appearance</label><br />
+					<span class='text'>Transparent</span>
+				</div>
+				<div class='entry'>
+					<label>Background</label><br />
+					<span class='text'>Imagery</span>
+				</div>
+				<div class='entry'>
+					<label>Map Text</label><br />
+					<span class='text'>Agent</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Color / BW</label><br />
+					<span class='text'>Color</span>
+				</div>
+				<div class='entry'>
+					<label>Binding</label><br />
+					<span class='text'>Spiral Binding</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Grower Worksheet</label>
+					<span class='text'><input type="checkbox" name="vehicle" value="Car" checked="true"></span>
+				</div>
+				<div class='entry'>
+					<label>Boundaries</label>
+					<span class='text'><input type="checkbox" name="vehicle" value="Car"></span>
+				</div>
+			</span>
+		</div>
+
+		<!-- /Form Options Bucket -->
+
+		<!-- Print Options Bucket -->
+
+		<div class='bucket' id='printOptionsBucket'>
+			<span class='container'>
+				<div class='entry'>
+					<label>PP Print Cost</label><br />
+					<span class='text'>$ 5.00</span>
+				</div>
+				<div class='entry'>
+					<label>PP Number of PDF's</label><br />
+					<span class='text'>17</span>
+				</div>
+				<div class='entry'>
+					<label>PP Total Impressions</label><br />
+					<span class='text'>4,000</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Notes to Promo</label><br />
+					<span class='text'>None</span>
+				</div>
+				<div class='entry'>
+					<label>Send By</label><br />
+					<span class='text'>Ground</span>
+				</div>
+			</span>
+		</div>
+
+		<!-- /Print Options Bucket -->
+
+		<!-- Shipping -->
+
+		<div class='bucket' id='shippingBucket'>
+			<span class='container'>
+				<div class='entry'>
+					<label>Agency Name</label><br />
+					<span class='text'>Equity Insurance Group, Inc.</span>
+				</div>
+				<div class='entry'>
+					<label>Regional Office</label><br />
+					<span class='text'>Peoria, IL</span>
+				</div>
+				<div class='entry'>
+					<label>Shipping Address</label><br />
+					<span class='text'>1401 Maine Street, Windsor, IL 61957</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Shipped By</label><br />
+					<span class='text'>Guy/Gal at the shop</span>
+				</div>
+				<div class='entry'>
+					<label>Shipped Date</label><br />
+					<span class='text'>2/31/2016</span>
+				</div>
+				<div class='entry'>
+					<label>Processing Days</label><br />
+					<span class='text'>7</span>
+				</div>
+			</span>
+			<span class='container'>
+				<div class='entry'>
+					<label>Other data</label><br />
+					<span class='text'>Other value</span>
+				</div>
+				<div class='entry'>
+					<label>Office #</label><br />
+					<span class='text'>8675309</span>
+				</div>
+			</span>
+		</div>
+
+		<!-- /Shipping -->
+	</div>
+</div>
+
+</body>
+
+<script src='./js/toggle.js'></script>
+<script src='./js/tab.js'></script>
+
+</html>
