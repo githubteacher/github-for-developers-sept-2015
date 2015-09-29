@@ -5,3 +5,5 @@
     }
 
 console.log(this)
+
+alert()
