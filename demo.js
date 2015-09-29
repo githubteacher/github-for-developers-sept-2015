@@ -3,3 +3,5 @@
         $.facebox({div:'#foo'})
       }
     }
+
+console.log(this)
