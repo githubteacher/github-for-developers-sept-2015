@@ -1,3 +1,3 @@
 ## Demo File
 
-This is a test of my demo file.  
+Using the web UI can be convenient, especially for quick changes.
