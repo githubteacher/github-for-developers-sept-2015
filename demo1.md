@@ -2,3 +2,4 @@
 
 - [ ] Yes
 - [ ] :squirrel:
+- [ ] :bikini: :snowman:
