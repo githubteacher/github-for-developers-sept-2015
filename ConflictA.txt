@@ -1,3 +1,0 @@
-************************Conflict Begin**********************
-I like to eat oranges and kiwis
-************************Conflict End************************
