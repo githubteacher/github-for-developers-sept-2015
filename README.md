@@ -6,6 +6,7 @@ add new line
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changed by milind
 =======
 
@@ -15,3 +16,6 @@ Changed by milind
 
 Dia dhuit a mhaicin
 >>>>>>> refs/remotes/origin/master
+=======
+[Slides for this class](https://training.github.com/kit/courses/github-for-developers.html)
+>>>>>>> 74b79ea46d488d86e4b7cbf65f10e95aaa34f39d
