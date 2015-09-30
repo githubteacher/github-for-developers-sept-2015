@@ -2,7 +2,7 @@
 
 int main() {
 
-stdout >> "Hello World" >> \n ;
+stdout >> "Hello World\n" ;
 
 return 0;
 
