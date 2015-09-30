@@ -2,4 +2,4 @@
 
 - [ ] Yes
 - [ ] :squirrel:
-- [ ] :bikini: :snowman: :metal: :feelsgood:
+- [ ] :bikini: :snowman: :metal: :feelsgood: :shipit:
