@@ -9,4 +9,5 @@ mess: *.md
 	cat $^ > $@
 
 .PHONY: clean
+clean:
 	rm mess
